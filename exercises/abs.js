@@ -11,7 +11,7 @@
 
 // Your code :
 function abs(num) {
-    return num > 0 ? num : -num;
+    return num == 0 ? 0 : num > 0 ? num : -num;
 }
 
 //* Begin of tests

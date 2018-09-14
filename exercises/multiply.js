@@ -10,6 +10,9 @@
 
 // Your code :
 function multiply(a, b) {
+    if (b == 0) {
+        return 0;
+    }
     let result = 0;
     let s = sign(b);
     b = abs(b);
