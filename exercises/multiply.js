@@ -9,6 +9,24 @@
  */
 
 // Your code :
+function multiply(a, b) {
+    let result = 0;
+    let s = sign(b);
+    b = abs(b);
+    while (b > 0) {
+        result += a
+        b--
+    }
+    return s < 0 ? -result : result;
+}
+
+function sign(num) {
+    return num === 0 ? 0 : num > 0 ? 1 : -1;
+}
+
+function abs(num) {
+    return num > 0 ? num : -num;
+}
 
 //* Begin of tests
 const assert = require('assert')

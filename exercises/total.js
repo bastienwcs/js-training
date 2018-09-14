@@ -6,6 +6,14 @@
  *
  */
 
+ function total(nums) {
+    let result = 0;
+    for (let value of nums) {
+        result += value
+    }
+    return result;
+ }
+
 
 //* Begin of tests
 const assert = require('assert')
