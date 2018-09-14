@@ -10,7 +10,7 @@
 
 // Your code :
 function multiply(a, b) {
-    if (b == 0) {
+    if (a == 0 || b == 0) {
         return 0;
     }
     let result = 0;
