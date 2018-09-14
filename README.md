@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
+[![Build Status](https://travis-ci.org/bastienwcs/js-training.svg?branch=master)](https://travis-ci.org/bastienwcs/js-training)
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
 ### globals dependencies
@@ -166,7 +166,7 @@ We greatly recommand you to add your own tests to this list
 
 - add your test file *(ex: `exercises/my-test.js`)*
 - edit `package.json` and add `"my-test"` to the `"tests"` array with the syntax `{"tag": X, "name": NAME}` where you replace the tag (x) and the name (NAME)
-- make a pull request !`https://github.com/nan-academy/js-training/compare/master...GITHUB_LOGIN:master`
+- make a pull request !`https://github.com/nan-academy/js-training/compare/master...bastienwcs:master`
 
 *All the tests must be written using [assert](https://nodejs.org/api/assert.html)
 for `./tester` to work properly.*
